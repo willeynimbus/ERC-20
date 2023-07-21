@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "burnToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createNewToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "purchaseToken",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleModifier.sol": "InheritenceModifierExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleModifier.sol": {
+			"keccak256": "0x12f9ef096080605d359ac30d9492998dbdee359c3e3579174fb34aff869038b5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0967ed9f9977809a9e15656f6d21b7e2a268e1297d1d474bd09b2c0d415977a1",
+				"dweb:/ipfs/QmX8QC3zWza9jJnjVBJwC4bv1WUxqnbj4EcJ7q4k58Nk5D"
+			]
+		},
+		"contracts/Owable.sol": {
+			"keccak256": "0xde9528f8f00b0cb50e9dce7ee13b4122b25b3993fca712637c6cd5bbe16e6a02",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d846ad4b646f295268b5f24d30e0ef8d19aca229fbdb7128542456a03660b3b",
+				"dweb:/ipfs/QmUB8fm24TGvD7QEszGV35a1v7Fy56g5XyjN294pL7SCy1"
+			]
+		}
+	},
+	"version": 1
+}
